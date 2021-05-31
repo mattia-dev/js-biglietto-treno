@@ -1,4 +1,6 @@
-var tripDistance = prompt('Quanti km vuoi percorrere?')
+var output = document.getElementById('output');
+
+var tripDistance = prompt('Quanti km vuoi percorrere?');
 var userAge = prompt('Quanti anni hai?');
 
 var tripBasicFare = parseInt(tripDistance) * 0.21;
